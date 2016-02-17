@@ -14,7 +14,7 @@ popd
 popd
 cmake .
 make
-./machigaisagashi
+./machigaisagashi /Users/hoge/thisisimagepath/fuga.jpg
 ```
 
 ## おまけ
