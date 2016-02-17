@@ -12,7 +12,7 @@ make -j8
 make install
 popd
 popd
-cmake ..
+cmake .
 make
 ./machigaisagashi
 ```
