@@ -42,6 +42,12 @@ int main(int argc, char *argv[]) {
       printf("wrong image");
       return -1;
     }
+
+    if (src1.size() != src2.size()) {
+      printf("wrong image");
+      return -1;
+    }
+
   } else if (argc == 3) {
     src1 = cv::imread(argv[1]);
     src2 = cv::imread(argv[2]);
